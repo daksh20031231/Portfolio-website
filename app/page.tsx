@@ -29,7 +29,7 @@ export default function Portfolio() {
               vulnerabilities and securing the organisations.
             </p>
             <Link
-              href="https://drive.google.com/file/d/1N5F_NH5AHWJYJt9BTpS1jLK8aam6t97Y/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1wRNSSrIurS-YCz-iuCMunssE3Iage3gn/view?usp=drive_link"
               className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
             >
               View Resume ⤴
@@ -363,7 +363,7 @@ export default function Portfolio() {
         <footer className="mt-16 pt-8">
           <div className="text-center">
             <p className="text-gray-600 font-medium">
-              MADE with ❤️ by DAKSH SHARMA
+              Made with ❤️ by Daksh Sharma
             </p>
           </div>
         </footer>
