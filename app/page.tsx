@@ -93,7 +93,7 @@ export default function Portfolio() {
                     Certified Network Defender(CND) - EC Council
                   </h3>
                   <p className="text-orange-600 font-medium mb-1">
-                    Amazon Web Services
+                    EC Council
                   </p>
                   <div className="flex items-center gap-4 text-gray-600 text-sm mb-2">
                     <span className="flex items-center gap-1">
