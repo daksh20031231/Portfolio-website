@@ -29,7 +29,7 @@ export default function Portfolio() {
               vulnerabilities and securing the organisations.
             </p>
             <Link
-              href="https://drive.google.com/file/d/1wRNSSrIurS-YCz-iuCMunssE3Iage3gn/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1GyBc3p_c6jNmjsmma1rTcVUSCUKe5PrE/view?usp=sharing"
               className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
             >
               View Resume ⤴
@@ -189,6 +189,24 @@ export default function Portfolio() {
             <div className="border-l-4 border-orange-500 pl-6 hover:pl-8 transition-all">
               <h3 className="font-semibold text-gray-900 mb-2">
                 <Link
+                  href="https://night-snack-store.vercel.app/auth/signin"
+                  className="text-orange-600 hover:text-orange-700"
+                >
+                  Night Snack Store ⤴
+                </Link>
+              </h3>
+              <p className="text-gray-700 leading-relaxed">
+                Developed a full-stack Night Snack Store web application using Next.js and NextAuth, enabling hostel
+students to order snacks easily and sellers to manage listings with Google authentication. Implemented
+role-switching between buyer and seller and simplified order payments with cash or UPI on delivery.{" "}
+                <br />
+                Tools used: Next.js, Node.js, Google Auth, Atlas.
+              </p>
+            </div>
+
+            <div className="border-l-4 border-orange-500 pl-6 hover:pl-8 transition-all">
+              <h3 className="font-semibold text-gray-900 mb-2">
+                <Link
                   href="#"
                   className="text-orange-600 hover:text-orange-700"
                 >
@@ -200,25 +218,6 @@ export default function Portfolio() {
                 as normal or malicious. Use datasets like KDD Cup 99 or NSL-KDD.{" "}
                 <br />
                 Tools used: Python, Scikit-learn, TensorFlow/PyTorch.
-              </p>
-            </div>
-
-            <div className="border-l-4 border-orange-500 pl-6 hover:pl-8 transition-all">
-              <h3 className="font-semibold text-gray-900 mb-2">
-                <Link
-                  href="#"
-                  className="text-orange-600 hover:text-orange-700"
-                >
-                  Secure File Vault with End-to-End Encryption ⤴
-                </Link>
-              </h3>
-              <p className="text-gray-700 leading-relaxed">
-                A secure cloud-based file storage system where users can
-                upload/download files with encryption. Uses AES encryption
-                before storing files and decrypts only after authentication.{" "}
-                <br />
-                Tools used: Next.js, Node.js, Python (Flask/FastAPI), Crypto.js,
-                Firebase/PostgreSQL.
               </p>
             </div>
           </div>
@@ -233,10 +232,10 @@ export default function Portfolio() {
                 <div className="border-l-4 border-gray-300 pl-6 hover:pl-8 transition-all">
                   <h4 className="font-semibold text-gray-900 mb-2">
                     <Link
-                      href="#"
+                      href="https://github.com/daksh20031231/Hospital-Management-System-with-Billing-system"
                       className="text-orange-600 hover:text-orange-700"
                     >
-                      Hospital Managment System ⤴
+                      Hospital Managment with Billing System⤴
                     </Link>
                   </h4>
                   <p className="text-gray-700">
@@ -244,6 +243,24 @@ export default function Portfolio() {
                     many other api to maintain and automate the hospital
                     management.
                   </p>
+                </div>
+                <div className="border-l-4 border-gray-300 pl-6 hover:pl-8 transition-all">
+                  <h4 className="font-semibold text-gray-900 mb-2">
+                    <Link
+                      href="#"
+                      className="text-orange-600 hover:text-orange-700"
+                    >
+                      Secure File Vault with End-to-End Encryption ⤴
+                    </Link>
+                  </h4>
+                  <p className="text-gray-700 leading-relaxed">
+                A secure cloud-based file storage system where users can
+                upload/download files with encryption. Uses AES encryption
+                before storing files and decrypts only after authentication.{" "}
+                <br />
+                Tools used: Next.js, Node.js, Python (Flask/FastAPI), Crypto.js,
+                Firebase/PostgreSQL.
+              </p>
                 </div>
               </div>
             </details>
