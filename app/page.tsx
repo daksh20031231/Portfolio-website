@@ -29,7 +29,7 @@ export default function Portfolio() {
               vulnerabilities and securing the organisations.
             </p>
             <Link
-              href="https://drive.google.com/file/d/1zLd6C18BLJHOVCHiIwyVridoSdtGivkI/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1s69zVc1oGpRfA602m6A7KINOaH_H2mH0/view?usp=sharing"
               className="inline-flex items-center text-orange-600 hover:text-orange-700 font-medium"
             >
               View Resume ⤴
