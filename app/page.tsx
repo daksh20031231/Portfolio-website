@@ -327,7 +327,7 @@ role-switching between buyer and seller and simplified order payments with cash 
           <div className="space-y-6">
             <div className="flex items-center bg-gray-50 p-4 rounded-lg hover:bg-gray-100 transition-colors">
               <span className="text-gray-700">
-                Google Arcade Participant 2024 : Learned about GCS and many
+                Google Arcade Participant 2024 : Learned about GCP and many
                 more.
               </span>
             </div>
@@ -358,12 +358,12 @@ role-switching between buyer and seller and simplified order payments with cash 
 
             {/* Bottom Row */}
             <Link
-              href="https://www.instagram.com/daksh_20031231_/"
+              href="https://www.instagram.com/itsdaksh.dev/"
               className="flex items-center gap-3 p-4 bg-white rounded-xl shadow-md hover:shadow-lg transition-all hover:scale-105 group"
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5 text-gray-700" />
-              <span className="text-gray-700 font-medium">daksh_20031231_</span>
+              <span className="text-gray-700 font-medium">itsdaksh.dev</span>
             </Link>
             <Link
               href="https://twitter.com/daksh20031231"
