@@ -79,7 +79,7 @@ export default function Contact() {
             className="bg-primary hover:bg-primary/90 text-primary-foreground"
             asChild
           >
-            <a href="mailto:daksh@example.com">
+            <a href="mailto:daksh20031231@gmail.com">
               Send Me an Email
             </a>
           </Button>
