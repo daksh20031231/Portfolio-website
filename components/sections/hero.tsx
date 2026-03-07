@@ -20,7 +20,7 @@ export default function Hero() {
                 Daksh Sharma
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground font-light">
-                🚀 Final Year B.Tech CSE-Cybersecurity | Realtor
+                🚀 Final Year B.Tech CSE-Cybersecurity | Real Estate Enthusiast
               </p>
               <p className="text-base text-muted-foreground">
                 📍 Bangalore, India

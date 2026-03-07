@@ -18,7 +18,7 @@ const experiences = [
     period: "2024 - Present",
     location: "Bangalore, India",
     description:
-      "RERA-certified dealer working under PRIME ESTATE, handling residential and commercial properties for both rental and sale. Managing property listings, client interactions, negotiations, and end-to-end deal closures while building strong client relationships.",
+      "Managed client relationships, conducted property consultations, and coordinated deals for residential and commercial real estate transactions. Also handled technical and marketing initiatives, including developing the company website and supporting online property promotion to improve lead generation and digital presence.",
     tags: ["Real Estate", "Client Relations", "Sales"],
   },
 ];

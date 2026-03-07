@@ -13,7 +13,7 @@ export default function About() {
           </p>
           
           <p>
-            Alongside tech, I also work as a part-time Realtor managing property listings and client deals. 
+            Alongside tech Out of Passion, I also work as a part-time Realtor managing property listings and client deals. 
             This unique blend of technical expertise and real estate acumen allows me to approach problems 
             from both analytical and business perspectives.
           </p>

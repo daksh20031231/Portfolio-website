@@ -87,7 +87,7 @@ export default function Contact() {
       </div>
 
       <div className="mt-16 pt-8 border-t border-border text-center text-muted-foreground text-sm">
-        <p>© 2024 Daksh Sharma. All rights reserved.</p>
+        <p>© 2026 Daksh Sharma. All rights reserved.</p>
       </div>
     </section>
   );
