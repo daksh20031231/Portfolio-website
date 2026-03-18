@@ -1,14 +1,14 @@
 'use client';
 
-import { Mail, Linkedin, Github, Instagram } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram,Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const contacts = [
   {
-    icon: Mail,
+    icon: Facebook,
     label: 'Email',
-    value: 'daksh20031231@gmail.com',
-    href: 'mailto:daksh20031231@gmail.com',
+    value: 'itsdaksh.dev',
+    href: 'https://www.facebook.com/itsdaksh.dev/',
   },
   {
     icon: Linkedin,
