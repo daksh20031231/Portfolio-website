@@ -37,7 +37,6 @@ export default function Education() {
             </div>
 
             <div className="pt-4 border-t border-border">
-              <p className="text-muted-foreground">CGPA- 7.82 </p>
               <p className="text-muted-foreground">
                 Pursuing B.Tech in Computer Science Engineering with a major in Cybersecurity and a minor in Artificial Intelligence & Machine Learning.
               </p>

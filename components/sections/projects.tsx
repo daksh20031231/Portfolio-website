@@ -5,17 +5,25 @@ const projects = [
     title: 'Night Snack Store',
     emoji: '🍿',
     description:
-      'Full-stack e-commerce platform for hostel students to order snacks with buyer-seller role switching and UPI/cash payments.',
+      'Full-stack e-commerce platform for JAIN hostel students to order snacks with buyer-seller role switching and UPI/cash payments.',
     tech: ['Next.js', 'Node.js', 'Google Auth', 'MongoDB'],
     link: 'https://night-snack-store.vercel.app/auth/signin', // replace with your link
   },
   {
-    title: 'Intrusion Detection System',
+    title: 'Deceptinet',
     emoji: '🛡️',
+    description:
+      'Advanced, AI-powered cyber deception platform with adaptive honeypots, machine learning-based threat detection, reinforcement learning agents, and real-time threat intelligence integration.',
+    tech: ['Python', 'ML', 'AI Model', 'MongoDB', 'docker', 'Next.js', 'Honeypots', 'Protocol', 'IDS and IPS'],
+    link: 'https://github.com/daksh20031231/Deceptinet', // replace
+  },
+  {
+    title: 'Intrusion Detection System',
+    emoji: '🚨',
     description:
       'ML-powered IDS that classifies network traffic as normal or malicious using advanced machine learning models.',
     tech: ['Python', 'ML', 'TensorFlow', 'Scikit-learn'],
-    link: 'https://github.com/your-repo', // replace
+    link: 'https://github.com/daksh20031231/IDS', // replace
   },
   {
     title: 'Hospital Management System',
