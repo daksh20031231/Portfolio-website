@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Cybersecurity enthusiast, final year B.Tech CSE student specializing in Cybersecurity, building projects in AI, Cybersecurity and Web. Also working as a part-time Realtor.
+              Cybersecurity enthusiast, final year B.Tech CSE student specializing in Cybersecurity, building projects in AI, Cybersecurity and Web. 
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 md:justify-start justify-center pt-4">
