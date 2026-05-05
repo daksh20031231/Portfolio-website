@@ -5,7 +5,7 @@ const projects = [
     title: 'Night Snack Store',
     emoji: '🍿',
     description:
-      'Full-stack e-commerce platform for JAIN hostel students to order snacks with buyer-seller role switching and UPI/cash payments.',
+      'Developed and deployed a full-stack hostel food delivery app (Next.js, NextAuth, Google OAuth 2.0) with 300+ active users, real-time buyer/seller role-switching, and UPI/cash checkout.',
     tech: ['Next.js', 'Node.js', 'Google Auth', 'MongoDB'],
     link: 'https://night-snack-store.vercel.app/auth/signin', // replace with your link
   },
@@ -13,23 +13,15 @@ const projects = [
     title: 'Deceptinet',
     emoji: '🛡️',
     description:
-      'Advanced, AI-powered cyber deception platform with adaptive honeypots, machine learning-based threat detection, reinforcement learning agents, and real-time threat intelligence integration.',
+      'Built DeceptiNet (SOC dashboard) — an AI honeypot platform simulating 5+ attack surfaces, achieving ~90–95% ML threat detection accuracy across 1,000+ attack events, with 30% fewer false positives via reinforcement learning.',
     tech: ['Python', 'ML', 'AI Model', 'MongoDB', 'docker', 'Next.js', 'Honeypots', 'Protocol', 'IDS and IPS'],
-    link: 'https://github.com/daksh20031231/Deceptinet', // replace
-  },
-  {
-    title: 'Intrusion Detection System',
-    emoji: '🚨',
-    description:
-      'ML-powered IDS that classifies network traffic as normal or malicious using advanced machine learning models.',
-    tech: ['Python', 'ML', 'TensorFlow', 'Scikit-learn'],
-    link: 'https://github.com/daksh20031231/IDS', // replace
+    link: 'https://deceptinet.vercel.app/login', // replace
   },
   {
     title: 'Hospital Management System',
     emoji: '🏥',
     description:
-      'Comprehensive hospital management solution with billing, scheduling, and automation for seamless operations.',
+      'Developed a full-stack Hospital Management System with integrated billing, enabling role-based access (Admin/Doctor/Patient), appointment scheduling, and automated invoice generation. Optimized SQL database to handle 1000+ records and improved operational efficiency by ~40%.',
     tech: ['Next.js', 'Node.js', 'APIs', 'Database'],
     link: 'https://github.com/daksh20031231/Hospital-Management-System-with-Billing-system', // replace
   },

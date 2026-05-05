@@ -2,11 +2,6 @@
 
 const stats = [
   {
-    number: '20+',
-    label: 'Properties Rented',
-    emoji: '🏠',
-  },
-  {
     number: '2+',
     label: 'Bugs Found',
     emoji: '🐞',
@@ -15,6 +10,11 @@ const stats = [
     number: '10+',
     label: 'Automations Built',
     emoji: '🤖',
+  },
+  {
+    number: '50+',
+    label: 'Properties Rented & Sale',
+    emoji: '🏠',
   },
 ];
 
