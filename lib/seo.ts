@@ -8,6 +8,8 @@ export const SITE_TITLE =
 export const SITE_DESCRIPTION =
   'Daksh Sharma is a cybersecurity-focused software engineer in Bangalore, India, specializing in penetration testing, red teaming, AI security, Java development, and secure full-stack software.';
 
+export const NIGHT_SNACK_STORE_URL = 'https://nightsnackstore.dakshsharmaa.in/';
+
 export const SEO_KEYWORDS = [
   'Daksh Sharma',
   'Cybersecurity',
@@ -21,6 +23,9 @@ export const SEO_KEYWORDS = [
   'Bangalore Cybersecurity Engineer',
   'Network Security',
   'Vulnerability Assessment',
+  'Night Snack Store',
+  'Hostel Food Delivery App',
+  'Next.js Food Delivery Project',
 ];
 
 export const SOCIAL_PROFILES = [
@@ -36,4 +41,3 @@ export const OG_IMAGE = {
   height: 1200,
   alt: 'Daksh Sharma, cybersecurity engineer and software developer',
 };
-

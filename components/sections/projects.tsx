@@ -1,13 +1,15 @@
 'use client';
 
+import { NIGHT_SNACK_STORE_URL } from '@/lib/seo';
+
 const projects = [
   {
     title: 'Night Snack Store',
     emoji: '🍿',
     description:
-      'Developed and deployed a full-stack hostel food delivery app (Next.js, NextAuth, Google OAuth 2.0) with 300+ active users, real-time buyer/seller role-switching, and UPI/cash checkout.',
+      'Published a full-stack hostel food delivery app at nightsnackstore.dakshsharmaa.in using Next.js, NextAuth, Google OAuth 2.0, buyer/seller role-switching, and UPI/cash checkout for 300+ active users.',
     tech: ['Next.js', 'Node.js', 'Google Auth', 'MongoDB'],
-    link: 'https://night-snack-store.vercel.app/auth/signin', // replace with your link
+    link: NIGHT_SNACK_STORE_URL,
   },
   {
     title: 'Deceptinet',
@@ -40,6 +42,7 @@ export default function Projects() {
             <a
               key={idx}
               href={project.link}
+              aria-label={`Open ${project.title} project`}
               target="_blank"
               rel="noopener noreferrer"
               className="block"

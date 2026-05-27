@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import {
+  NIGHT_SNACK_STORE_URL,
   OG_IMAGE,
   SEO_KEYWORDS,
   SITE_DESCRIPTION,
@@ -125,6 +126,20 @@ const jsonLd = {
       mainEntity: {
         '@id': `${SITE_URL}/#person`,
       },
+    },
+    {
+      '@type': 'SoftwareApplication',
+      '@id': `${NIGHT_SNACK_STORE_URL}#software`,
+      name: 'Night Snack Store',
+      url: NIGHT_SNACK_STORE_URL,
+      applicationCategory: 'FoodDeliveryApplication',
+      operatingSystem: 'Web',
+      description:
+        'Night Snack Store is a full-stack hostel food delivery application built with Next.js, NextAuth, Google OAuth, MongoDB, and UPI/cash checkout.',
+      creator: {
+        '@id': `${SITE_URL}/#person`,
+      },
+      sameAs: NIGHT_SNACK_STORE_URL,
     },
   ],
 }
