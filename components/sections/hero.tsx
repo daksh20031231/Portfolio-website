@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -8,8 +9,15 @@ export default function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
           {/* Image on Left */}
           <div className="flex justify-center md:justify-start order-2 md:order-1">
-            <div className="w-32 h-32 md:w-40 md:h-40 rounded-full bg-muted border-2 border-primary/20 flex items-center justify-center scale-in">
-              <span className="text-5xl md:text-6xl"><img src="/IMG_2043-modified.png" alt="Profile" /></span>
+            <div className="relative w-32 h-32 md:w-40 md:h-40 overflow-hidden rounded-full bg-muted border-2 border-primary/20 scale-in">
+              <Image
+                src="/IMG_2043-modified.png"
+                alt="Daksh Sharma profile photo"
+                fill
+                priority
+                sizes="(min-width: 768px) 160px, 128px"
+                className="object-cover"
+              />
             </div>
           </div>
 
