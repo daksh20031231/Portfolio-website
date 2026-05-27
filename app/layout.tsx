@@ -59,19 +59,12 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/IMG_2043-modified.png',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.png',
+    shortcut: '/IMG_2043-modified.png',
+    apple: '/IMG_2043-modified.png',
   },
   manifest: '/site.webmanifest',
 }
